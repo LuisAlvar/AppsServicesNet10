@@ -1,3 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="CHANGELOG.md" />
+  </Folder>
+  <Project Path="Northwind.DataContext/Northwind.DataContext.csproj" Id="675c1221-e026-4573-ad06-6e1bf0d60e78" />
   <Project Path="Northwind.EntityModels/Northwind.EntityModels.csproj" />
 </Solution>
