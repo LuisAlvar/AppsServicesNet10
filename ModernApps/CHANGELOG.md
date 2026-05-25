@@ -33,7 +33,6 @@ $SaPassword = [Runtime.InteropServices.Marshal]::PtrToStringAuto(
 - [database-first approach] Within Northwind.EntityModels run command to generate entity class models for all tables `dotnet ef dbcontext scaffold $SqlConnectionString Microsoft.EntityFrameworkCore.SqlServer --namespace Northwind.EntityModels --data-annotations`
 - Create a new Class Library project Northwind.DataContext 
 - Modify `Customer.cs` add an attribute of Regular expression for Customer Id and attribute of phone for Phone property
-- 
 
 ## Northwind.DataContext - Class Library Project
 As of 3/22/2026
@@ -45,3 +44,19 @@ As of 3/22/2026
 - Remove the #Warning on OnConfiguring about the connection string and add statement sto dynamical build a database connection stirng for SQL Server in a container
 - Create new file `NorthwindContextExtensions.cs`
 
+## Northwind.UnitTests - xUnit Test Project
+As of 3/28/2026
+- Create project 
+- Edit `Northwind.UnitTests.csproj` file delete the default version for all of the packages 
+- Edit `Northwind.UnitTests.csproj` file add project reference `Northwind.DataContext`
+- Rename `UnitTest1.cs` to `EntityModelTests.cs`
+- Modify `EntityModelTests.cs` add three Fact based test cases
+
+## Northwind.Maui.Client - MAUI Client Project
+As of 05/25/2026
+- Create project .MAUI project with project file and solution within the same folder. 
+- Edit `Northwind.Maui.Client` file add 'net10.0-ios;net10.0-maccatalyst'
+- Edit `Northwind.Maui.Client` file remove the versions from all packages reference so far.
+- Edit `Northwind.Maui.Client` fiel comment out MauiXamlInflator
+	- Add more RAM to the Android Emulator
+	- These two changes to enable proper MAUI deployment to Emulator.

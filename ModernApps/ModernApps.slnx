@@ -4,4 +4,5 @@
   </Folder>
   <Project Path="Northwind.DataContext/Northwind.DataContext.csproj" Id="675c1221-e026-4573-ad06-6e1bf0d60e78" />
   <Project Path="Northwind.EntityModels/Northwind.EntityModels.csproj" />
+  <Project Path="Northwind.UnitTests/Northwind.UnitTests.csproj" Id="21da8e6b-3759-4da6-84f0-32d52c105b8e" />
 </Solution>
