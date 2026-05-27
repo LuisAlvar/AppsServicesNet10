@@ -60,3 +60,12 @@ As of 05/25/2026
 - Edit `Northwind.Maui.Client` fiel comment out MauiXamlInflator
 	- Add more RAM to the Android Emulator
 	- These two changes to enable proper MAUI deployment to Emulator.
+As of 05/26/2026
+- Add images to under `Resources\Images`
+- Edit `AppShell.xaml` add AppShell to MainPage
+- Run `dotnet new maui-page-xaml --name SettingsPage.xaml` command to add ContentPage 
+- Run `dotnet new maui-page-xaml --name CategoriesPage.xaml` command to add ContentPage 
+- Run `dotnet new maui-page-xaml --name CustomersPage.xaml` command to add ContentPage 
+- Run `dotnet new maui-page-xaml --name CustomerDetailPage.xaml` command to add ContentPage 
+- Run `dotnet new maui-page-xaml --name EmployeesPage.xaml` command to add ContentPage 
+- Run `dotnet new maui-page-xaml --name ProductsPage.xaml` command to add ContentPage
