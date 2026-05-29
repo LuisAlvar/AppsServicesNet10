@@ -25,7 +25,7 @@
         Icon="delivery_truck_3d.png"
         ContentTemplate="{DataTemplate local:CategoriesPage}"
         Route="Categories" />
-  <ShellContent
+  <!--<ShellContent
         Title="Products"
         Icon="cityscape_3d.png"
         ContentTemplate="{DataTemplate local:ProductsPage}"
@@ -44,6 +44,6 @@
         Title="Settings"
         Icon="gear_3d.png"
         ContentTemplate="{DataTemplate local:SettingsPage}"
-        Route="Settings" />
+        Route="Settings" />-->
 </Shell>
  

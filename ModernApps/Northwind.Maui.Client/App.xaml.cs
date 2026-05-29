@@ -9,7 +9,6 @@ namespace Northwind.Maui.Client
       try
       {
         InitializeComponent();
-        MainPage = new AppShell();
       }
       catch (Exception ex)
       {
