@@ -30,6 +30,11 @@
         Icon="identification_card_3d.png"
         ContentTemplate="{DataTemplate local:EmployeesPage}"
         Route="Employees" />
+  <ShellContent
+        Title="Settings"
+        Icon="gear_3d.png"
+        ContentTemplate="{DataTemplate local:SettingsPage}"
+        Route="Settings" />
   <!--<ShellContent
         Title="Products"
         Icon="cityscape_3d.png"
@@ -39,12 +44,6 @@
         Title="Customers"
         Icon="card_index_3d.png"
         ContentTemplate="{DataTemplate local:CustomersPage}"
-        Route="Customers" />
-
-  <ShellContent
-        Title="Settings"
-        Icon="gear_3d.png"
-        ContentTemplate="{DataTemplate local:SettingsPage}"
-        Route="Settings" />-->
+        Route="Customers" />-->
 </Shell>
  

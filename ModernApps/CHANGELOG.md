@@ -87,5 +87,9 @@ As of 05/30/2026
 - Create `LightModeTheme.xaml` a .NET MAUI Resource Dictionary (XAML) under `Resources\Styles` folder
 - Create `SystemModeTheme.xaml` a .NET MAUI Resource Dictionary (XAML) under `Resources\Styles` folder
 - Edit `App.xaml` add references to LightDarkModeColors and SystemModeTheme.xaml 
+- Create a new folder at the root level of the project `Controls` folder
+- Create `ThemeEnum.cs` file under Controls folder
+- Create `EnumPicker.cs` file under Controls folder
+- Create `SettingsPage.xaml` .NET MAUI ContentPage (XAML)
 
 
