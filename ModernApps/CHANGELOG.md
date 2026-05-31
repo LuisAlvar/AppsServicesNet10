@@ -69,3 +69,23 @@ As of 05/26/2026
 - Run `dotnet new maui-page-xaml --name CustomerDetailPage.xaml` command to add ContentPage 
 - Run `dotnet new maui-page-xaml --name EmployeesPage.xaml` command to add ContentPage 
 - Run `dotnet new maui-page-xaml --name ProductsPage.xaml` command to add ContentPage
+- There is a bug with running this dotnet command to create a ContentPage
+	- It creates the xaml file with an additional xaml extension tag as CategoriesPage.xaml.xaml
+- Remove all new ContentPage extend CategoriesPage
+As of 05/29/2026
+- Create `EmployeesPage.xaml` from .NET MAUI templates 
+- Edit `EmployeesPage.xaml` add grid functionality 
+- Edit `EmployeesPage.xaml.cs` add a event handler to run at the time the page is loaded. 
+- Edit `EmployeesPage.xaml.cs` add a button handler 
+- Create `Northwind.xaml` a .NET MAUI Resource Dictionary (XAML) under `Resources\Styles` folder
+- Edit `Northwind.xaml` add Rainbow linear gradient brush
+- Edit `App.xaml` an entry to the merged resoruce distionaries to reference the resource file for `Northwind.xaml` file
+- Edit `CategoriesPage.xaml` add the background of Raindow from `Northwind.xaml`
+As of 05/30/2026
+- Create `LightDarkModeColors.xaml` a .NET MAUI Resoruce Dictionary (XAML) under `Resources\Styles` folder
+- Create `DarkModeTheme.xaml` a .NET MAUI Resource Dictionary (XAML) under `Resources\Styles` folder
+- Create `LightModeTheme.xaml` a .NET MAUI Resource Dictionary (XAML) under `Resources\Styles` folder
+- Create `SystemModeTheme.xaml` a .NET MAUI Resource Dictionary (XAML) under `Resources\Styles` folder
+- Edit `App.xaml` add references to LightDarkModeColors and SystemModeTheme.xaml 
+
+

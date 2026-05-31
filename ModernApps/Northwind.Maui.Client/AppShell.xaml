@@ -25,6 +25,11 @@
         Icon="delivery_truck_3d.png"
         ContentTemplate="{DataTemplate local:CategoriesPage}"
         Route="Categories" />
+  <ShellContent
+        Title="Employees"
+        Icon="identification_card_3d.png"
+        ContentTemplate="{DataTemplate local:EmployeesPage}"
+        Route="Employees" />
   <!--<ShellContent
         Title="Products"
         Icon="cityscape_3d.png"
@@ -35,11 +40,7 @@
         Icon="card_index_3d.png"
         ContentTemplate="{DataTemplate local:CustomersPage}"
         Route="Customers" />
-  <ShellContent
-        Title="Employees"
-        Icon="identification_card_3d.png"
-        ContentTemplate="{DataTemplate local:EmployeesPage}"
-        Route="Employees" />
+
   <ShellContent
         Title="Settings"
         Icon="gear_3d.png"
