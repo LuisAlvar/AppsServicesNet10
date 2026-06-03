@@ -5,14 +5,28 @@
              Background="{StaticResource Rainbow}"
              Title="Categories">
   <VerticalStackLayout>
-    <Label 
-      Text="Categories"
-      VerticalOptions="Center" 
-      HorizontalOptions="Center" />
-    <Button 
-      Text="Click Me" 
-      WidthRequest="100"
-      x:Name="ClickMeButton"
-      Clicked="ClickMeButton_Clicked"/>
+    <Button Text="Click Me" 
+            WidthRequest="100"
+            x:Name="ClickMeButton"
+            Clicked="ClickMeButton_Clicked"/>
+
+    <Label Margin="10">Use the slider to rotate the square:</Label>
+    <Label BindingContext="{x:Reference Name =SliderRotation}"
+           Text="{Binding Path=Value, StringFormat='{0:N0} degrees'}"
+           FontSize="30"
+           HorizontalTextAlignment="Center"/>
+    <Slider Value="0"
+            Minimum="0"
+            Maximum="180"
+            x:Name="SliderRotation"
+            Margin="10,0"/>
+
+    <Rectangle HeightRequest="200"
+               WidthRequest="200"
+               Fill="{StaticResource Rainbow}"
+               BindingContext="{x:Reference Name=SliderRotation}"
+               Rotation="{Binding Path=Value}"/>
+
   </VerticalStackLayout>
 </ContentPage>
+ 

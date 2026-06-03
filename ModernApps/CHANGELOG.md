@@ -91,5 +91,7 @@ As of 05/30/2026
 - Create `ThemeEnum.cs` file under Controls folder
 - Create `EnumPicker.cs` file under Controls folder
 - Create `SettingsPage.xaml` .NET MAUI ContentPage (XAML)
-
+- Edit `SettingsPage.xaml` will add the custom EnumPicker control
+- Edit `SettingsPage.xaml.cs` add statements to handle the events for the picker
+- Edit `CategoriesPage.xaml` binding three elements a label to display data, slider for interaction, and then a rectangle for an effect. 
 
